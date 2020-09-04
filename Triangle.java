@@ -18,9 +18,9 @@ public class Triangle extends Polygon
    */
   public boolean isIsosceles()
   {
-    return Math.abs(getSide(0) - getSide(1)) < .0001 ||
-           Math.abs(getSide(0) - getSide(2)) < .0001 ||
-           Math.abs(getSide(1) - getSide(2)) < .0001;
+    return Math.abs(sides.get(0) - sides.get(1)) < .0001 ||
+           Math.abs(sides.get(1) - sides.get(2)) < .0001 ||
+           Math.abs(sides.get(1) - sides.get(2)) < .0001;
 
        
   }
@@ -37,3 +37,4 @@ public class Triangle extends Polygon
   }
 
 }
+
