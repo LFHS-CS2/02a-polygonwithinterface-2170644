@@ -22,7 +22,7 @@ public class Rectangle extends Polygon
   */
   public double getArea()
   {
-    return getSide(0) * getSide(1);
+    return sides.get(0) * sides.get(1);
       
   }
    
