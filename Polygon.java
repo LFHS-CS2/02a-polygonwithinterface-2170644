@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public abstract class Polygon implements Shape2D
 {
-  private ArrayList<Double> sides;
+  protected ArrayList<Double> sides;
   
   public Polygon() {
     sides = new ArrayList<Double>();
