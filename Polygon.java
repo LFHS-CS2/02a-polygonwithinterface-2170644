@@ -1,7 +1,7 @@
 
 import java.util.ArrayList;
 
-public class Polygon
+public abstract class Polygon implements Shape2D
 {
   private ArrayList<Double> sides;
   
